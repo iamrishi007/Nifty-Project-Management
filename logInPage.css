@@ -1,0 +1,137 @@
+#logIn {
+          display: grid;
+          height: 680px;
+          width: 100%;
+          margin: auto;
+          padding: 5px;
+          background: url("https://nifty.pm/static/media/waves-large@2x.0f45956af565d8c3dea9.png") center;
+          background-repeat: no-repeat;
+          background-size: cover;
+}
+
+.logoPng {
+          text-align: center;
+          height: 60px;
+}
+
+#logIn>label {
+          font-size: 20px;
+}
+
+.logoPng>img {
+          height: 50px;
+          width: 110px;
+}
+
+.logPage {
+          height: 600px;
+          width: 70%;
+          margin: auto;
+          display: flex;
+          padding: 8px;
+          margin: auto;
+          margin-top: 10px;
+}
+
+.logPage>div {
+          margin: auto;
+          height: 90%;
+          width: 90%;
+          padding: 15px;
+          margin: 1px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.logPage>div>img {
+          height: 225px;
+          width: 400px;
+}
+
+.logPage>div>input {
+          height: 45px;
+          width: 75%;
+          margin: 10px;
+          border: 1px solid #00abba;
+          border-radius: 8px;
+          padding: 5px;
+          font-size: 18px;
+}
+
+.logPage>div>label {
+          color: #020202;
+          font-size: 17px;
+}
+
+.logPage>div>h3 {
+          font-size: 22px;
+}
+
+.logPage>div>p {
+          color: #020202;
+          font-size: 18px;
+}
+
+.logPage>div>h3>span {
+          border-radius: 15px;
+          padding: 5px;
+          background: #FAA759;
+          font-size: 15px;
+          color: white;
+}
+
+::placeholder {
+          color: #020202;
+          padding: 4px;
+          font-size: 14px;
+}
+
+.logBtn {
+          margin: 20px 0px 20px 10px;
+          height: 50px;
+          width: 80%;
+          text-align: center;
+          color: white;
+          border-radius: 10px;
+
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.logBtn>button {
+          height: 100%;
+          width: 100%;
+          font-size: 15px;
+          border: 1px solid #00abba;
+          background-color: #00abba;
+          color: white;
+          border-radius: 10px;
+          font-size: 18px;
+          cursor: pointer;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          font-family: sans-serif;
+}
+
+.singUpBtn {
+          height: 50px;
+          width: 80%;
+          margin: 20px 0px 20px 10px;
+          height: 60px;
+          text-align: center;
+          text-align: start;
+
+}
+
+.singUpBtn>button {
+          height: 100%;
+          width: 100%;
+          font-size: 18px;
+          color: white;
+          border-radius: 10px;
+          font-size: 18px;
+          cursor: pointer;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          font-family: sans-serif;
+          background-color: #00abba;
+          border: none;
+
+}
